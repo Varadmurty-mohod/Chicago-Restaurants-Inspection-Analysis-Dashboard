@@ -2,6 +2,8 @@
 
 An analysis of the Chicago food inspections Dataset by the Chicago Government with insights about all the food inspections conducted on restaurantrs from January 1, 2010 to April 2023.
 
+Analysis includes Data Profiling, Cleaning, Modelling, Staging, integration to SQL cloud servers and BI visualisations.
+
 <img width="1455" alt="Screenshot 2023-05-07 at 11 51 16 PM" src="https://user-images.githubusercontent.com/69577585/236730132-96fcc8ed-7197-4cf2-ab04-6185d702ce0b.png">
 
 PowerBI Screenshots:
