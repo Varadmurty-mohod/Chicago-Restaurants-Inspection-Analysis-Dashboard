@@ -1,0 +1,157 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2022.3">
+  <Nodes>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="198" y="198" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <CachedCosmeticName />
+          <File FileFormat="23" RecordLimit="">aka:Local_SQLServer|||select STG_CHI_Food_Inspection.* 
+from STG_CHI_Food_Inspection</File>
+          <FormatSpecificOptions>
+            <SingleRowFetch>False</SingleRowFetch>
+            <ReadCentroids>False</ReadCentroids>
+            <TableStyle>Quoted</TableStyle>
+            <CacheData>False</CacheData>
+            <SessionReadOnly>True</SessionReadOnly>
+            <ReadUncommitted>False</ReadUncommitted>
+            <NoProgress>True</NoProgress>
+            <PostSQL />
+            <PreSQLOnConfig>True</PreSQLOnConfig>
+            <PreSQL />
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>aka:Local_SQLServer
+Query=select STG_CHI_Food_Inspecti...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="InspectionStgID" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Chicago-Food-Inspection;SERVER=localhost;Trusted_Connection=yes|||select STG_CHI_Food_Inspection.* &#xA;from STG_CHI_Food_Inspection" type="Int32" />
+            <Field name="Inspection_ID" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Chicago-Food-Inspection;SERVER=localhost;Trusted_Connection=yes|||select STG_CHI_Food_Inspection.* &#xA;from STG_CHI_Food_Inspection" type="Int32" />
+            <Field name="DBA" size="254" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Chicago-Food-Inspection;SERVER=localhost;Trusted_Connection=yes|||select STG_CHI_Food_Inspection.* &#xA;from STG_CHI_Food_Inspection" type="V_WString" />
+            <Field name="AKA" size="254" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Chicago-Food-Inspection;SERVER=localhost;Trusted_Connection=yes|||select STG_CHI_Food_Inspection.* &#xA;from STG_CHI_Food_Inspection" type="V_WString" />
+            <Field name="License" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Chicago-Food-Inspection;SERVER=localhost;Trusted_Connection=yes|||select STG_CHI_Food_Inspection.* &#xA;from STG_CHI_Food_Inspection" type="Int32" />
+            <Field name="Facility_Type" size="254" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Chicago-Food-Inspection;SERVER=localhost;Trusted_Connection=yes|||select STG_CHI_Food_Inspection.* &#xA;from STG_CHI_Food_Inspection" type="V_WString" />
+            <Field name="Risk" size="254" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Chicago-Food-Inspection;SERVER=localhost;Trusted_Connection=yes|||select STG_CHI_Food_Inspection.* &#xA;from STG_CHI_Food_Inspection" type="V_WString" />
+            <Field name="Address" size="254" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Chicago-Food-Inspection;SERVER=localhost;Trusted_Connection=yes|||select STG_CHI_Food_Inspection.* &#xA;from STG_CHI_Food_Inspection" type="V_WString" />
+            <Field name="City" size="254" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Chicago-Food-Inspection;SERVER=localhost;Trusted_Connection=yes|||select STG_CHI_Food_Inspection.* &#xA;from STG_CHI_Food_Inspection" type="V_WString" />
+            <Field name="State" size="254" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Chicago-Food-Inspection;SERVER=localhost;Trusted_Connection=yes|||select STG_CHI_Food_Inspection.* &#xA;from STG_CHI_Food_Inspection" type="V_WString" />
+            <Field name="Zip" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Chicago-Food-Inspection;SERVER=localhost;Trusted_Connection=yes|||select STG_CHI_Food_Inspection.* &#xA;from STG_CHI_Food_Inspection" type="Int32" />
+            <Field name="Inspection_Date" size="254" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Chicago-Food-Inspection;SERVER=localhost;Trusted_Connection=yes|||select STG_CHI_Food_Inspection.* &#xA;from STG_CHI_Food_Inspection" type="V_WString" />
+            <Field name="Inspection_Date_DT" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Chicago-Food-Inspection;SERVER=localhost;Trusted_Connection=yes|||select STG_CHI_Food_Inspection.* &#xA;from STG_CHI_Food_Inspection" type="Date" />
+            <Field name="Inspection_Type" size="254" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Chicago-Food-Inspection;SERVER=localhost;Trusted_Connection=yes|||select STG_CHI_Food_Inspection.* &#xA;from STG_CHI_Food_Inspection" type="V_String" />
+            <Field name="Results" size="254" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Chicago-Food-Inspection;SERVER=localhost;Trusted_Connection=yes|||select STG_CHI_Food_Inspection.* &#xA;from STG_CHI_Food_Inspection" type="V_WString" />
+            <Field name="Violations" size="16777216" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Chicago-Food-Inspection;SERVER=localhost;Trusted_Connection=yes|||select STG_CHI_Food_Inspection.* &#xA;from STG_CHI_Food_Inspection" type="V_WString" />
+            <Field name="Latitude" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Chicago-Food-Inspection;SERVER=localhost;Trusted_Connection=yes|||select STG_CHI_Food_Inspection.* &#xA;from STG_CHI_Food_Inspection" type="Double" />
+            <Field name="Longitude" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Chicago-Food-Inspection;SERVER=localhost;Trusted_Connection=yes|||select STG_CHI_Food_Inspection.* &#xA;from STG_CHI_Food_Inspection" type="Double" />
+            <Field name="Location" size="254" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Chicago-Food-Inspection;SERVER=localhost;Trusted_Connection=yes|||select STG_CHI_Food_Inspection.* &#xA;from STG_CHI_Food_Inspection" type="V_WString" />
+            <Field name="DI_CreateDate" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Chicago-Food-Inspection;SERVER=localhost;Trusted_Connection=yes|||select STG_CHI_Food_Inspection.* &#xA;from STG_CHI_Food_Inspection" type="DateTime" />
+            <Field name="DI_WorkflowFileName" size="254" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Chicago-Food-Inspection;SERVER=localhost;Trusted_Connection=yes|||select STG_CHI_Food_Inspection.* &#xA;from STG_CHI_Food_Inspection" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="318" y="198" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="474" y="198" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText><![CDATA[
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="3" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="4" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <RunWithE2 value="True" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>dim_tables_workflow</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="3119b87e-696f-443e-838c-f32f1259f0e1" />
+      <Telemetry>
+        <PreviousWorkflowId value="a5bde1bd-8704-45ce-9f3f-cbd214489714" />
+        <OriginWorkflowId value="a5bde1bd-8704-45ce-9f3f-cbd214489714" />
+      </Telemetry>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
